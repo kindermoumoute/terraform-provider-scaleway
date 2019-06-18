@@ -347,6 +347,5 @@ func regionSchema() *schema.Schema {
 
 // getRandomName returns a random name prefixed for terraform.
 func getRandomName(prefix string) string {
-
 	return namegenerator.GetRandomName("tf", prefix)
 }
